@@ -1,0 +1,15 @@
+{
+  "name": "friendly-couscous",
+  "version": "1.0.0",
+  "description": "These are some little Node and Express experiments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:forestmonster/friendly-couscous.git"
+  },
+  "author": "Forest Monsen",
+  "license": "MIT"
+}
