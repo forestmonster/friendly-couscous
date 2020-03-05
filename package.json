@@ -11,5 +11,6 @@
     "url": "github.com:forestmonster/friendly-couscous.git"
   },
   "author": "Forest Monsen",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
