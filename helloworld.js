@@ -1,5 +1,17 @@
 const http = require("http")
+const fs = require("fs")
 const port = process.env.PORT || 3000
+
+function serveStaticFile(response, path, contentType, responseCode = 200) {
+  fs.readFile(__dirname + path, (err, data) => {
+    if (err) {
+      response.writeHead(500, { "Content-Type": "text/plain" })
+      return response.end("500 - Internal Error")
+    }
+    response.writeHead(responsecode, { "Content-type": contentType })
+    response.end(data)
+  })
+}
 
 const server = http.createServer((request, response) => {
   // Lower case, remove query string, and training slash from request URI.
