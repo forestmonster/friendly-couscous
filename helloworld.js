@@ -35,3 +35,9 @@ const server = http.createServer((request, response) => {
 server.listen(port, () =>
   console.log(`Server started on port ${port}; ` + "Press CTRL-C to terminate.")
 )
+
+// function logger(place) {
+//   console.log("Served " + place)
+//   // Use logger(path) elsewhere?
+// }
+
